@@ -1,0 +1,21 @@
+Kabel SIM800L
+RXD <--> D8
+TXD <--> D7
+VCC <--> 3.7V melalui stepdown dari 5V Arduino
+GND <--> GND
+
+Kabel Relay 4 Channel <--> Arduino Uno
+GND <--> GND
+CH1 <--> D2
+CH2 <--> D3
+CH3 <--> D4
+CH4 <--> D5
+
+LM2596 adjustable DC-DC step-down power Supply module
+Input dari Arduino Uno ke LM2596 adjustable DC-DC step-down
+GND - IN 
+5V + IN
+
+Output dari Arduino Uno ke LM2596 adjustable DC-DC step-down ke SIM800L
+OUT - GND
+OUT + VCC

@@ -18,6 +18,6 @@ Input dari Arduino Uno ke LM2596 adjustable DC-DC step-down
 GND - IN 
 5V + IN
 
-Output dari Arduino Uno ke LM2596 adjustable DC-DC step-down ke SIM800L
+Output dari LM2596 adjustable DC-DC step-down ke SIM800L
 OUT - GND
 OUT + VCC

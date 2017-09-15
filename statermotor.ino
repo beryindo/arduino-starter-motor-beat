@@ -104,8 +104,9 @@ void loop() {
             Serial.println("Relay1 DINYALAKAN");
             delay(7000);                        
             StatRelay2 = ON;
-            StatRelay3 = ON;
             digitalWrite(Relay2, StatRelay2);
+            delay(500); 
+            StatRelay3 = ON;
             digitalWrite(Relay3, StatRelay3);
             delay(3000);
             StatRelay2 = OFF;

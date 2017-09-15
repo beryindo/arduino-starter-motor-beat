@@ -21,3 +21,9 @@ GND - IN
 Output dari LM2596 adjustable DC-DC step-down ke SIM800L
 OUT - GND
 OUT + VCC
+
+Output dari Relay
+CH1 Gabungkan ke Kabel kontak
+CH2 Lampu Rem kiri
+CH3 Stater
+CH4 Sensor Standar (bisa juga tidak dipasang tapi harus pake standar dua)

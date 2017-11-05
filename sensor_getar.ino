@@ -1,3 +1,8 @@
+// Module sensor getar sw18010p
+// Arduino UNO/Nano
+// Pin A0 atau D0 di hubungkan ke PIN12
+// VCC ke 5V, GND ke GND
+
 const int vibrationSensorPin = 12; // Vibration Sensor di hubungkan ke Pin 12
 int vibrationSensorState = 0;
 unsigned long previousMillis = 0;
